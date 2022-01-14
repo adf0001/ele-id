@@ -1,0 +1,26 @@
+{
+  "name": "ele-id",
+  "version": "1.0.1",
+  "description": "create and set element a new unique id, or return the existed id.",
+  "main": "ele-id.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "element",
+    "id"
+  ],
+  "author": "fwg",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adf0001/ele-id.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adf0001/ele-id/issues"
+  },
+  "homepage": "https://github.com/adf0001/ele-id#readme"
+}
