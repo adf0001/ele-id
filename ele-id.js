@@ -5,7 +5,11 @@ var seed = 0;	//seed, for new unique id
 
 //eleId( [ el [, prefix]] )
 module.exports = exports = function (el, prefix) {
-	if (el && el.id) return el.id;
+	if (el) {
+		if (typeof el === "string") return el;	//return the same value if el is a not-empty string
+		if (el.id) return el.id;
+	}
+
 	if (!prefix) prefix = "ele-id-";
 
 	var sid;

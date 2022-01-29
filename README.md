@@ -17,7 +17,8 @@ document.getElementById('divResult2').innerHTML = '<span>child</span>';
 showResult('new id= ' + ele_id(document.getElementById('divResult2').firstChild) + ', new id2= ' + ele_id(), 3);
 
 document.getElementById('divResult2').firstChild.id &&
-	ele_id(document.getElementById('divResult2')) === 'divResult2';
+	ele_id(document.getElementById('divResult2')) === 'divResult2' &&
+	ele_id("asdfg12345") === "asdfg12345";
 
 //.from(idString)	//just same as document.getElementById()
 ele_id.from('divResult') === document.getElementById('divResult') &&

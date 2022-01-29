@@ -1,6 +1,6 @@
 {
   "name": "ele-id",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "create and set element a new unique id, or return the existed id.",
   "main": "ele-id.js",
   "scripts": {

@@ -9,7 +9,8 @@ module.exports = {
 		//eleId( [ el [, prefix]] )
 		showResult('new id= ' + ele_id(document.getElementById('divResult2').firstChild) + ', new id2= ' + ele_id(), 3);
 		return document.getElementById('divResult2').firstChild.id &&
-			ele_id(document.getElementById('divResult2')) === 'divResult2';
+			ele_id(document.getElementById('divResult2')) === 'divResult2' &&
+			ele_id("asdfg12345") === "asdfg12345";
 	},
 	".from()": function (done) {
 		//.from(idString)	//just same as document.getElementById()
